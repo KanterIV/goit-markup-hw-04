@@ -287,6 +287,14 @@ body {
   display: block;
   width: calc((100% - 72px) / 4);
 }
+
+.icon-box {
+  display: flex;
+  background: var(--primary-white-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 24px 100px;
+}
 /* =================== /Studio features ================ */
 
 /* =================== Work examples =================== */
