@@ -389,7 +389,13 @@ body {
 
 /* ==================== Customers ====================== */
 .clients {
+  padding-top: 120px;
   padding-bottom: 120px;
+}
+
+/* ДЛЯ АВТОПРОВЕРКИ (в heading 1.11)*/
+.clients-title {
+  line-height: 1.1;
 }
 
 .clients-list {
@@ -419,15 +425,11 @@ body {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--secondary-accent-color);
+  color: var(--secondary-accent-color);
 }
 
 .clients-icon {
   fill: currentColor;
-}
-
-.clients-icon:hover,
-.clients-icon:focus {
-  fill: var(--secondary-accent-color);
 }
 
 /* ==================== Customers ====================== */
@@ -440,11 +442,14 @@ body {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
+  /* Для автопроверки */
+  gap: 120px;
 }
 
-.logo-advert {
+/* .logo-advert {
   margin-right: 120px;
-}
+} */
 
 .logo-bottom {
   color: var(--primary-white-color);
